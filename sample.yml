@@ -1,0 +1,8 @@
+Bucyou\Product:
+    attributes:
+        itemSold:
+            groups: ["admins"]
+        commission:
+            groups: ["admins", "affiliates"]
+        price:
+            groups: ["admins", "affiliates", "users"]

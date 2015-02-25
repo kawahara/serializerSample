@@ -1,0 +1,19 @@
+{
+    "name": "kawahara/serializer-sample",
+    "authors": [
+        {
+            "name": "Shogo Kawahara",
+            "email": "kawahara@bucyou.net"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "2.7.*@dev",
+        "symfony/yaml": "2.7.*@dev",
+        "doctrine/common": "2.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bucyou\\": "lib/"
+        }
+    }
+}
